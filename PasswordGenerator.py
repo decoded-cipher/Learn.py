@@ -29,12 +29,12 @@ while ch == 'Y' or ch == 'y':
     if choice in ('1', '2', '3'):
         
         if choice == '1':
-            print('\nYour STANDARD Password is : INO_', standard())
+            print('\nYour STANDARD Password is : INO_' + standard())
 
         elif choice == '2':
-            print('\nYour SECURE Password is : INO_', secure())
+            print('\nYour SECURE Password is : INO_' + secure())
         else:
-            print('\nYour ULTRA SECURE Password is : INO_', ultra())
+            print('\nYour ULTRA SECURE Password is : INO_' + ultra())
     else:
             print("Invalid Input")
         
